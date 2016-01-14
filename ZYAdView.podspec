@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.summary  = '网易、淘宝广告循环滚动效果' 
   s.homepage = "https://github.com/tianxiao12345/ZYAdView" 
   s.license  = 'MIT'  
-  s.author   = { '田潇" => '331065255@163.com' }   
-  s.source   = { :git => 'https://github.com/tianxiao12345/ZYAdView.git', :tag => s.version.to_s }  
+  s.author   = { "田潇" => "331065255@163.com" }   
+  s.source   = { :git => "https://github.com/tianxiao12345/ZYAdView.git", :tag => s.version.to_s }  
   s.platform = :ios    
-  s.source_files = 'AdView/AdView/AdView/*.{h,m}'  
-  s.resources = 'src/SinaWeibo/SinaWeibo.bundle/**/*.png'  
+  s.source_files = "AdView/AdView/AdView/*.{h,m}"  
+  s.resources = "src/SinaWeibo/SinaWeibo.bundle/**/*.png"  
   s.requires_arc = true   
   #特殊
   #iOS库

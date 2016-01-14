@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   #iOS库
   #s.framework = 'UIKit'
   #第三方库
-  #s.dependency 'JSONKit', '~> 1.4'   
+  s.dependency 'SDWebImage', '~> 3.7.4'   
 end
